@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Lucida Console";
+    font-size: 2vh;
+    font-weight: 400;
+    background-image: url(https://www.centroturisticoelquisco.cl/images/imagenes/el-quisco/punta-tralca/pt01.jpg);
+    background-size: cover;
+}
+
+/* NavBar */
+
+.navBar{
+    background-color: lightblue;
+}
+.navBar__menu{
+    padding: 1% 0%;  
+}
+.navBar__item{
+    display: inline-block;
+    padding: 0% 0.5%;
+}
+.navBar__item--title{
+    font-size: 2.5vh;
+    font-weight: bolder;
+}
+.navBar__link{
+    color: black;
+    text-decoration: none;
+}
+
+/* Header */
+
+.header{
+    height: 18vh;
+    width: 45vh;
+    background-color: rgb(68, 112, 112);
+    color: whitesmoke;
+    margin: auto;
+    margin-top: 3%;
+    
+}
+.header__title{
+    font-size: 5vh;
+    padding: 4%;
+    text-align: center;
+}
+
+.header__subtitle{
+    padding: 0% 0% 0% 5%;
+    font-size: 2.5vh;
+}
+
+/* Main */
+
+.search-form{
+    height: 22vh;
+    width: 61vh;
+    background-color: rgba(255, 255, 255, 0.63);
+    margin: auto;
+    margin-top: 2% ;
+    padding: 1.5%;
+}
+.search-form__group{
+    margin-top: 10px;
+}
+.search-form__subgroup{
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 3vh;
+
+}
+.search-form__group--bottom{
+    margin-top: 3vh ;
+}
+.search-form__input{
+    height: 2.8vh;
+}
+.search-form__input--lg{
+    width: 20vh;
+    margin-left: 2vh;
+}
+.search-form__input--md{
+    width: 17vh;
+}
+.search-form__input--sm{
+    width: 7vh;
+}
+.search-form__input--to{
+    margin-left: 23px;
+}
+
+.search-button{
+    display: block;
+    border: none;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 2vh;
+    margin: auto;
+    margin-top: 2vh;
+    padding: 1vh 4vh; 
+}
+
+/* Footer */
+
+.footer{
+    background-color: lightblue;
+    padding: 1%; 
+    width: 100%;
+    position: fixed; 
+    bottom: 0;
+}
+
+.footer__text{
+    display: inline-block;
+    width: 49%;
+}
+
+.footer__menu{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+
+}
+.footer__link{
+    display: inline-block;
+    text-decoration: none;
+}
+.footer__link-item{
+    color: darkslategray;
+    text-decoration: none;
+}

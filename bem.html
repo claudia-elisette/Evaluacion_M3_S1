@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura CSS BEM</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+
+    <nav class="navBar">
+
+        <ul class="navBar__menu">
+            <li class="navBar__item navBar__item--title"><a class="navBar__link" href="">HostelsPages</a></li>
+            <li class="navBar__item"><a class="navBar__link" href="">Home</a></li>
+            <li class="navBar__item"><a class="navBar__link" href="">About us</a></li>
+            <li class="navBar__item"><a class="navBar__link" href="">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <header class="header">
+
+        <h1 class="header__title">HostelsPage</h1>
+        <p class="header__subtitle">Your site for booking hostels arround the world</p>
+    
+
+    </header>
+
+
+    <main class="main">
+
+        <form class="search-form" action="">
+
+            <div class="search-form__group">
+
+                <label class="search-form__tag search-form__tag--primary" for="">Where do you want to go?</label>
+                <input class="search-form__input search-form__input--lg" type="text">
+
+            </div>
+
+            <div class="search-form__group">
+
+                <div class="search-form__subgroup">
+                        <label class="search-form__tag search-form__tag--primary" for="">When?</label>
+                </div>
+
+                <div class="search-form__subgroup">
+                    <label class="search-form__tag search-form__tag--secondary" for="">From:</label>
+                    <input class="search-form__input search-form__input--md" type="text">
+
+                    <br>
+
+                    <label class="search-form__tag search-form__tag--secondary" for="">To:</label>
+                    <input class="search-form__input search-form__input--md search-form__input--to" type="text">
+
+                </div>
+
+
+            </div>
+
+            <div class="search-form__group search-form__group--bottom">
+
+                <label class="search-form__tag search-form__tag--primary" for="">How many people?</label>
+
+                <input class="search-form__input search-form__input--sm" type="text">
+                <label class="search-form__tag search-form__tag--secondary" for="">adults</label>
+
+                <input class="search-form__input search-form__input--sm" type="text">
+                <label class="search-form__tag search-form__tag--secondary" for="">children</label>
+
+            </div>
+
+        </form>
+
+        <button class="search-button">
+            Search
+        </button>
+
+    </main>
+
+    <footer class="footer">
+
+
+        <p class="footer__text">All rights reserved</p>
+    
+
+        <ul class="footer__menu">
+            <li class="footer__link"><a class="footer__link-item" href="">Instagram</a></li>
+            <li class="footer__link"><a class="footer__link-item" href="">Facebook</a></li>
+            <li class="footer__link"><a class="footer__link-item" href="">Twitter</a></li>
+        </ul>
+
+    </footer>
+
+   
+
+    
+</body>
+</html>
